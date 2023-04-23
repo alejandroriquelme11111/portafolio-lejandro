@@ -1,0 +1,139 @@
+body {
+  font-family: "roboto";
+
+}
+
+.priceant {
+  text-decoration: line-through;
+}
+
+.pricenew {
+  font-size: 1.2rem;
+}
+
+.description {
+  height: 5rem;
+}
+
+.cards-img{
+    height: 15rem;
+}img, svg {
+  vertical-align: middle;
+  width: 2rem
+;
+  height: 2rem;
+}
+
+.perfil {
+  width: 1000px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  margin: 50px auto;
+  border-radius: 40px;
+  box-shadow: 10px 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.perfil :hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px black;
+}
+
+.perfil img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.perfil p {
+  font-size: 3rem;
+  color: white;
+  position: absolute;
+  top: 2%;
+  left: 25%;
+  
+  text-shadow: 0 0 8px rgba(227, 15, 15, 0.8);
+
+}
+
+
+.boton {
+  display: inline-block;
+  background-color: cyan;
+  color: darkred;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 100;
+  border-radius: 2px;
+  margin: 2px;
+  padding: 2px;
+
+}
+
+.body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: black;
+  display: flex;
+  height: 10vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+h2 {
+  font-size: 7rem;
+  position: absolute;
+}
+
+.borber {
+  color: black;
+  text-shadow: 
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  1px 1px 0 white,
+  -1px 1px 0 white 
+}
+
+.wave {
+  color: #09f;
+  animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% {
+    clip-path: polygon(
+      0% 47%,
+      10% 48%,
+      33% 54%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
